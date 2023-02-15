@@ -1,0 +1,68 @@
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="3"] .main-trackList-rowSectionVariable {
+    display: none;
+}
+
+
+.main-trackList-trackList[aria-colcount="2"]:not(.main-trackList-indexable) .main-trackList-trackListRowGrid {
+    grid-template-columns:[first] 4fr [last] minmax(120px, 1fr)
+}
+
+.main-trackList-trackList[aria-colcount="2"]:not(.main-trackList-indexable) .main-trackList-rowSectionVariable {
+    display: none
+}
+
+.main-trackList-trackList[aria-colcount="3"]:not(.main-trackList-indexable) .main-trackList-trackListRowGrid {
+    grid-template-columns:[first] 4fr [var1] 2fr [last] minmax(120px, 1fr);
+}
+
+.main-trackList-trackList[aria-colcount="3"]:not(.main-trackList-indexable) .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable {
+    display: none
+}
+
+.main-trackList-trackList[aria-colcount="4"]:not(.main-trackList-indexable) .main-trackList-trackListRowGrid {
+    grid-template-columns:[first] 4fr [var1] 2fr [var2] 2fr [last] minmax(120px, 1fr);
+}
+
+.main-trackList-trackList[aria-colcount="4"]:not(.main-trackList-indexable) .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable {
+    display: none
+}
+
+.main-trackList-trackList[aria-colcount="5"]:not(.main-trackList-indexable) .main-trackList-trackListRowGrid {
+    grid-template-columns:[first] 4fr [var1] 2fr [var2] 2fr [var3] 2fr [last] minmax(120px, 1fr);
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="3"] .main-trackList-trackListRowGrid {
+    grid-template-columns:[index] 16px [first] 4fr [var1] 2fr [last] minmax(120px, 1fr);
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="3"] .main-trackList-rowSectionVariable {
+    display: none
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="4"] .main-trackList-trackListRowGrid {
+    grid-template-columns:[index] 16px [first] 6fr [var1] 4fr [var2] 3fr [last] minmax(120px, 1fr);
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="4"] .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable {
+    display: none
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="5"] .main-trackList-trackListRowGrid {
+    grid-template-columns:[index] 16px [first] 6fr [var1] 4fr [var2] 3fr [var3] minmax(120px, 2fr) [last] minmax(120px, 1fr);
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="5"] .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable {
+    display: none
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="6"] .main-trackList-trackListRowGrid {
+    grid-template-columns:[index] 16px [first] 6fr [var1] 3fr [var2] 3fr [var3] 2fr [var4] 2fr [last] minmax(120px, 1fr);
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="6"] .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable {
+    display: none
+}
+
+.main-trackList-trackList.main-trackList-indexable[aria-colcount="7"] .main-trackList-trackListRowGrid {
+    grid-template-columns:[index] 16px [first] 6fr [var1] 3fr [var2] 3fr [var3] 2fr [var4] 2fr [last] minmax(120px, 1fr);
+}
