@@ -59,7 +59,8 @@
 } */
 
 .main-trackList-trackList.main-trackList-indexable[aria-colcount="6"] .main-trackList-trackListRowGrid {
-    grid-template-columns:[index] 16px [first] 6fr [var1] 3fr [var2] 3fr [var3] 2fr [var4] 2fr [last] minmax(120px, 1fr);
+/*     grid-template-columns:[index] 16px [first] 6fr [var1] 3fr [var2] 3fr [var3] 2fr [var4] 2fr [last] minmax(120px, 1fr); */
+    grid-template-columns:[index] 16px [first] 6fr [var1] 4fr [var2] 3fr [var3] minmax(80px,2fr) [var3] 2fr [last] minmax(110px,1fr)
 }
 
 /* .main-trackList-trackList.main-trackList-indexable[aria-colcount="6"] .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable ~ .main-trackList-rowSectionVariable {
